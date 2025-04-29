@@ -1,0 +1,17 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.img-section {
+  max-height: 300px;
+  object-fit: cover;
+}
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
