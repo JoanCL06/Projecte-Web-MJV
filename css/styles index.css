@@ -1,0 +1,85 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdf9f6;
+  color: #333;
+}
+
+.bg-hero {
+  background-color: #6a78f5;
+}
+
+.text-hero {
+  color: white;
+}
+
+.img-section {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.section-title {
+  color: #31f589;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #333;
+}
+
+.btn-outline-primary {
+  border-color: #6a78f5;
+  color: #6a78f5;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6a78f5;
+  color: white;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+nav.navbar {
+  background-color: #6a78f5 !important;
+}
+
+/* Estil del logo */
+.logo-navbar {
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Animació quan es passa el ratolí */
+.logo-navbar:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+/* Opcional: estil del títol del lloc */
+.site-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 576px) {
+  .logo-navbar {
+    height: 32px;
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+}
