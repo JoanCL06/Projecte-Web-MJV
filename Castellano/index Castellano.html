@@ -50,7 +50,7 @@
 
          <!-- Enlace a versión en catalán -->
         <li class="nav-item"><a class="nav-link" href="../Catala/index Català.html">Catalan</a></li>
-
+       
          <!-- Enlace a versión en castellano (actual) -->
         <li class="nav-item"><a class="nav-link active" href="index Castellano.html">Español</a></li>
 
@@ -62,20 +62,20 @@
 </nav>
 
 <!-- CABECERA CON TÍTULO PRINCIPAL -->
-<header class="text-center p-5 bg-hero text-hero">
-
+<header class="d-flex align-items-center justify-content-center p-5 bg-hero text-hero text-center text-md-start flex-column flex-md-row">
+  
   <!-- Logo de la ONG -->
-  <img src="../imagenes/logo.png" alt="Logo" width="80" class="mb-3">
-
-  <!-- Título de la web -->
-  <h1 class="display-4">Equidad de Género y Coeducación</h1>
-
-  <!-- Subtítulo -->
-  <p class="lead">Construyendo una sociedad más justa e inclusiva desde la educación</p>
+  <img src="../imagenes/logo.png" alt="Logo" width="80" class="mb-3 mb-md-0 me-md-4">
+  
+  <!-- Título y subtítulo juntos -->
+  <div>
+    <h1 class="display-4">Equidad de Género y Coeducación</h1>
+    <p class="lead">Construyendo una sociedad más justa e inclusiva desde la educación</p>
+  </div>
 </header>
 
 <!-- VIDEO DE FONDO (Niños jugando) -->
-<section class="mb-5 text-center">
+ <section class="video-section text-center">
   <div class="video-wrapper">
     <video autoplay muted loop playsinline>
       <source src="../videos/Index/niños jugando.mp4" type="video/mp4">
@@ -84,87 +84,88 @@
 </section>
 
 <!-- CONTENIDO PRINCIPAL -->
-<main class="container mt-5">
-
- <!-- SECCIÓN: ¿Quiénes somos? -->
+<main class="container mt-3">
   <section class="mb-5">
-    <h2 class="section-title">¿Quiénes somos?</h2>
 
-    <!-- Misión de la ONG -->
-    <p>Somos una organización comprometida con la equidad de género y la transformación educativa. Nuestro equipo está conformado por docentes, profesionales del ámbito social y activistas que trabajan en pro de una educación inclusiva.</p>
-    
-    <!-- Imagen ilustrativa -->
-    <div class="col-md-6">
-      <img src="../imagenes/Quienes somos.png" class="img-fluid img-section rounded shadow" alt="Quienes somos?">
-    </div>
-  </section>
+    <!-- muestra 1 columna por fila en móvil y 3 en pantallas medianas o grandes. -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
-  <!-- SECCIÓN: ¿Qué buscamos lograr? -->
-  <section class="mb-5">
-    <h2 class="section-title">¿Qué buscamos lograr?</h2>
-
-    <!-- Objetivos principales del proyecto -->
-    <p>Creemos que la educación es una herramienta clave para construir una sociedad más justa, donde todas las personas tengan las mismas oportunidades. Buscamos eliminar estereotipos, promover el respeto a la diversidad y fomentar relaciones igualitarias en el entorno escolar.</p>
-    
-    <!-- Imagen relacionada -->
-    <div class="col-md-6">
-      <img src="../imagenes/Que queremos conseguir.png" class="img-fluid img-section rounded shadow" alt="Que buscamos lograr?">
-    </div>
-  </section>
-
-   <!-- SECCIÓN: ¿Por qué hablar de equidad de género? -->
-  <section class="row align-items-center mb-5">
-      <h2 class="section-title">¿Por qué hablar de equidad de género?</h2>
-
-       <!-- Justificación desde la perspectiva educativa -->
-      <p>La equidad de género busca eliminar las barreras estructurales que impiden a mujeres y hombres participar en igualdad de condiciones en todos los ámbitos de la vida. En el contexto educativo, esto implica revisar contenidos, prácticas docentes y relaciones dentro del aula.</p>
-      
-      <!-- Imagen relacionada -->
-      <div class="col-md-6">
-        <img src="../imagenes/equidad de genero en la educación.png" class="img-fluid img-section rounded shadow" alt="Equitat de gènere a l’educació">
-      </div>
-  </section>
-
-  <!-- SECCIÓN: TEMATICAS CLAVE -->
-  <section class="mb-5">
-    <h2 class="section-title text-center">Temáticas clave</h2>
-    <div class="row text-center">
-
-       <!-- Relaciones de Género -->
-      <div class="col-md-4">
-        <div class="card shadow-sm mb-4">
+      <!-- Ficha: ¿Quiénes somos? -->
+      <div class="col">
+        <div class="card h-100 shadow">
+          <img src="../imagenes/Quienes somos.png" class="card-img-top img-card"alt="¿Quiénes somos?">
           <div class="card-body">
-            <h5 class="card-title"><strong>Relaciones de Género</strong></h5>
-            <p class="card-text">Analiza cómo los estereotipos influyen en el desarrollo personal y social.</p>
-            <a href="relaciones-genero Castellano.html" class="btn btn-outline-primary">Leer más</a>
+            <h2 class="section-title">¿Quiénes somos?</h5>
+            <p>En InclusiveFundation somos una organización comprometida con la equidad de género y la transformación educativa. Nuestro equipo está conformado por docentes, profesionales del ámbito social y activistas que trabajan en pro de una educación inclusiva.</p>
           </div>
         </div>
       </div>
 
-       <!-- Escuela Coeducativa -->
-      <div class="col-md-4">
-        <div class="card shadow-sm mb-4">
+      <!-- Ficha: ¿Qué buscamos lograr? -->
+      <div class="col">
+        <div class="card h-100 shadow">
+          <img src="../imagenes/Que queremos conseguir.png" class="card-img-top img-card"alt="¿Qué buscamos lograr?">
           <div class="card-body">
-            <h5 class="card-title"><strong>Escuela Coeducativa</strong></h5>
-            <p class="card-text">Fomenta espacios educativos igualitarios y respetuosos con la diversidad.</p>
-            <a href="escuela-coeducativa Castellano.html" class="btn btn-outline-primary">Leer más</a>
+            <h2 class="section-title">¿Qué buscamos lograr?</h5>
+            <p>Creemos que la educación es una herramienta clave para construir una sociedad más justa, donde todas las personas tengan las mismas oportunidades. Buscamos eliminar estereotipos, promover el respeto a la diversidad y fomentar relaciones igualitarias en el entorno escolar.</p>
           </div>
         </div>
       </div>
 
-       <!-- Ética del Cuidado -->
-      <div class="col-md-4">
-        <div class="card shadow-sm mb-4">
+      <!-- Ficha: ¿Por qué hablar de equidad de género? -->
+      <div class="col">
+        <div class="card h-100 shadow">
+          <img src="../imagenes/equidad de genero en la educación.png" class="card-img-top img-card" alt="¿Por qué hablar de equidad de género?">
           <div class="card-body">
-            <h5 class="card-title"><strong>Ética del Cuidado</strong></h5>
-            <p class="card-text">Revaloriza las tareas de cuidado como base de una convivencia justa.</p>
-            <a href="etica-cuidados Castellano.html" class="btn btn-outline-primary">Leer más</a>
+            <h2 class="section-title">¿Por qué hablar de equidad de género?</h5>
+            <p>La equidad de género busca eliminar las barreras estructurales que impiden a mujeres y hombres participar en igualdad de condiciones en todos los ámbitos de la vida. En el contexto educativo, esto implica revisar contenidos, prácticas docentes y relaciones dentro del aula.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 </main>
+
+  <!-- SECCIÓN: TEMATICAS CLAVE -->
+<section class="mb-5">
+  <h2 class="section-title text-center">Temáticas clave</h2>
+  <div class="row text-center">
+
+    <!-- Relaciones de Género -->
+    <div class="col-md-4">
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Relaciones de Género</strong></h5>
+          <p class="card-text">Analiza cómo los estereotipos influyen en el desarrollo personal y social.</p>
+          <a href="relaciones-genero Castellano.html" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Escuela Coeducativa -->
+    <div class="col-md-4">
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Escuela Coeducativa</strong></h5>
+          <p class="card-text">Fomenta espacios educativos igualitarios y respetuosos con la diversidad.</p>
+          <a href="escuela-coeducativa Castellano.html" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ética del Cuidado -->
+    <div class="col-md-4">
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Ética del Cuidado</strong></h5>
+          <p class="card-text">Revaloriza las tareas de cuidado como base de una convivencia justa.</p>
+          <a href="etica-cuidados Castellano.html" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 <!-- ======== PIE DE PÁGINA ======== -->
 <footer class="text-white text-center p-3 mt-5">
