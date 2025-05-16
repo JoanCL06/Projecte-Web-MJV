@@ -1,41 +1,71 @@
+<!-- Defines that the document is HTML5 -->
 <!DOCTYPE html>
+
+<!-- The content of the site is in English -->
 <html lang="es">
 <head>
+
+  <!-- Defines the character encoding so that accents, ñ, etc., are displayed correctly. -->
   <meta charset="UTF-8" />
+
+  <!-- Makes the website responsive and adapts to mobile phones and tablets -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Title that appears in the browser tab -->
   <title>School-Co-Education - InclusiveFundation</title>
+
+  <!-- Link to Bootstrap CSS to use its layout and components -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <!-- Link to our custom stylesheet -->
   <link rel="stylesheet" href="../css/styles index.css" />
 </head>
 
 <body>
-  <!-- Navbar -->
+  <!-- ======== NAVIGATION BAR (NAVBAR) ======== -->
+  <!-- Dark, expandable navigation bar on large screens -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <!-- Flexible container for navbar elements -->
   <div class="container-fluid">
+
+    <!-- Logo and name of the foundation that links to the main page -->
     <a class="navbar-brand d-flex align-items-center" href="../Ingles/index Ingles.html">
       <img src="../imagenes/symbol.png" alt="Logo" class="logo-navbar me-2">
       InclusiveFundation
     </a>  
+
+    <!-- Button to open/close the menu on small devices -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!-- Navigation Menu -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
+
+        <!-- Link to return to the main page -->
         <li class="nav-item">
           <a class="nav-link" href="../Ingles/index Ingles.html">
             <i class="fas fa-home"></i> Return to index
           </a>
         </li>
+
+        <!-- Current page in Spanish -->
         <li class="nav-item">
           <a class="nav-link" href="../Castellano/escuela-coeducativa Castellano.html">
             <i class="fas fa-globe-americas"></i> Spanish
           </a>
         </li>
+
+        <!-- Link to the Catalan version (active) -->
         <li class="nav-item">
           <a class="nav-link" href="../Catala/escola-coeducativa Català.html">
             <i class="fas fa-globe-europe"></i> Catalan
           </a>
         </li>
+
+        <!-- Link to the English version -->
         <li class="nav-item">
           <a class="nav-link active" href="../Ingles/school-co-education Ingles.html">
             <i class="fas fa-globe-asia"></i> English
@@ -44,34 +74,44 @@
       </ul>      
   </div>
 </nav>
-<!-- Hero -->
+
+<!-- ======== FEATURED SECTION (HERO) WITH TITLE AND DESCRIPTION ======== -->
 <header class="bg-hero text-white text-center p-5">
   <h1 class="display-4">Coeducational School</h1>
   <p class="lead">How the spaces help to the equal and diversity.</p>
 </header>
 
-<!-- Vídeo de encabezado -->
+<!-- Header Video -->
 <section class="video-section text-center">
   <div class="video-wrapper">
   <video autoplay muted loop playsinline class="w-100">
+    <!-- Video that plays automatically, without sound, in a loop and takes up the entire width -->
     <source src="../videos/Escuela Coeducativa/niños en clase.mp4" type="video/mp4">
   </video>
   </div>
 </section>
 
-  <!-- Contenido principal -->
+  <!-- ======== MAIN PAGE CONTENT ======== -->
   <div class="container mt-5">
+
+    <!-- Section title centered -->
     <h1 class="section-title text-center">Coeducational School</h1>
+
+    <!-- Introduction to the coeducational school -->
     <p class="mt-4">
      The coeducational school is committed to an educational model where gender stereotypes are eliminated and equal opportunities between boys and girls are promoted.
-It is not just about sharing the same space, but also about guaranteeing equitable participation, making female role models visible and promoting their co-responsibility.
+     It is not just about sharing the same space, but also about guaranteeing equitable participation, making female role models visible and promoting their co-responsibility.
     </p>
-
+    <!-- SECTION: Principles of coeducation -->
     <div class="row align-items-center my-5">
       <div class="col-md-6 d-flex justify-content-center">
+
+        <!-- Representative image -->
         <img src="../imagenes/escuela coeducativa.png" alt="Escuela coeducativa" class="img-fluid img-section rounded shadow">
       </div>
       <div class="col-md-6">
+
+        <!-- Explanatory text with a list of coeducation principles -->
         <h2 class="section-title">Principles of coeducation</h2>
         <ul>
           <li>Eliminate gender discrimination in the classroom.</li>
@@ -83,9 +123,10 @@ It is not just about sharing the same space, but also about guaranteeing equitab
       </div>
     </div>
 
-    <!-- Nueva sección: Beneficios de la coeducación -->
+    <!-- SECTION: Benefits of coeducation -->
     <div class="row align-items-center my-5">
       <div class="col-md-6 order-md-2">
+        <!-- Image on the right on large screens -->
         <img src="../imagenes/beneficios coeducacion.png" alt="Beneficios de la coeducación" class="img-fluid img-section rounded shadow">
       </div>
       <div class="col-md-6 order-md-1">
@@ -97,7 +138,7 @@ It is not just about sharing the same space, but also about guaranteeing equitab
       </div>
     </div>
 
-    <!-- Nueva sección: Actividades prácticas -->
+    <!-- SECTION: Practical activities -->
     <div class="row align-items-center my-5">
       <div class="col-md-6 d-flex justify-content-center">
         <img src="../imagenes/Actividades coeducativas.png" alt="Actividades coeducativas" class="img-fluid img-section rounded shadow">
@@ -111,19 +152,19 @@ It is not just about sharing the same space, but also about guaranteeing equitab
       </div>
     </div>
 
-    <!-- Cierre -->
+    <!-- FINAL PARAGRAPH OF REFLECTION -->
     <p class="mt-4">
       <strong>Committing to a co-educational school is an active contribution to social transformation. Educating for equality today is building a fairer society tomorrow.
       At InclusiveFundation we encourage all educational centers to integrate this perspective into their curricula and school life.</strong>
     </p>
   </div>
 
-<!-- Pie de página -->
+<!-- ======== FOOTER ======== -->
 <footer class="text-white text-center bg-dark p-3 mt-5">
   &copy; 2025 Inclusive Foundation. All rights reserved.
 </footer>
 
-<!-- JS de Bootstrap -->
+<!-- ======== BOOSTRAP SCRIPTS FOR MENU AND ELEMENT OPERATION ======== -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

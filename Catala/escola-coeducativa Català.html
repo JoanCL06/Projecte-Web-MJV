@@ -1,41 +1,71 @@
+<!-- Defineix que el document és HTML5 -->
 <!DOCTYPE html>
+
+<!-- El contingut del lloc està en català -->
 <html lang="es">
 <head>
+
+  <!-- Defineix la codificació de caràcters perquè es vegin bé les titlles, la ñ, etc. -->
   <meta charset="UTF-8" />
+
+  <!-- Fa que la web sigui responsive i s'adapti a mòbils i tauletes -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Títol que apareix a la pestanya del navegador -->
   <title>Escola-Coeducativa - InclusiveFundation</title>
+
+  <!-- Enllaç al CSS de Bootstrap per utilitzar el seu disseny i components -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <!-- Enllaç al nostre full d'estils personalitzat -->
   <link rel="stylesheet" href="../css/styles index.css" />
 </head>
 
 <body>
-  <!-- Navbar -->
+  <!-- ======== BARRA DE NAVEGACIÓ (NAVBAR) ======== -->
+  <!-- Barra de navegació fosca i expansible en pantalles grans -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <!-- Contenidor flexible per als elements del navbar -->
   <div class="container-fluid">
+
+    <!-- Logo i nom de la fundació que enllaça a la pàgina principal -->
     <a class="navbar-brand d-flex align-items-center" href="../Catala/index Català.html">
       <img src="../imagenes/symbol.png" alt="Logo" class="logo-navbar me-2">
       InclusiveFundation
-    </a>  
+    </a> 
+    
+    <!-- Botó per obrir/tancar el menú en dispositius petits -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!-- Menú de navegació -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
+
+        <!-- Enllaç per tornar a la pàgina principal -->
         <li class="nav-item">
           <a class="nav-link" href="../Catala/index Català.html">
             <i class="fas fa-home"></i> Tornar al Principi
           </a>
         </li>
+
+        <!-- Pàgina actual en castella -->
         <li class="nav-item">
           <a class="nav-link" href="../Castellano/escuela-coeducativa Castellano.html">
             <i class="fas fa-globe-americas"></i> Castella
           </a>
         </li>
+
+        <!-- Pàgina actual en català (activa) -->
         <li class="nav-item">
           <a class="nav-link active" href="../Catala/escola-coeducativa Català.html">
             <i class="fas fa-globe-europe"></i> Català
           </a>
         </li>
+
+        <!-- Enllaç a la versió en anglès -->
         <li class="nav-item">
           <a class="nav-link" href="../Ingles/school-co-education Ingles.html">
             <i class="fas fa-globe-asia"></i> Anglés
@@ -45,34 +75,44 @@
   </div>
 </nav>
 
-<!-- Hero -->
+<!-- ======== SECCIÓ DESTACADA (HERO) AMB TÍTOL I DESCRIPCIÓ ======== -->
 <header class="bg-hero text-white text-center p-5">
   <h1 class="display-4">Escola Coeducativa</h1>
   <p class="lead">Com ayuden els espais igualataris i diversificats.</p>
 </header>
 
-<!-- Vídeo de encabezado -->
+<!-- Vídeo de capçalera -->
 <section class="video-section text-center">
   <div class="video-wrapper">
   <video autoplay muted loop playsinline class="w-100">
+    <!-- Vídeo que es reprodueix automàticament, sense so, en bucle i ocupa tota l'amplada -->
     <source src="../videos/Escuela Coeducativa/niños en clase.mp4" type="video/mp4">
   </video>
   </div>
 </section>
 
-  <!-- Contenido principal -->
+ <!-- ======== CONTINGUT PRINCIPAL DE LA PÀGINA ======== -->
   <div class="container mt-5">
+
+    <!-- Títol de la secció centrat -->
     <h1 class="section-title text-center">Escola Coeducativa</h1>
+
+    <!-- Introducció a l'escola coeducativa -->
     <p class="mt-4">
       L'escola coeducativa aposta per un model educatiu on s'eliminen els estereotips de gènere i es promou la igualtat d'oportunitats entre nens i nenes.
       No es tracta només de compartir el mateix espai, sinó de garantir una participació equitativa, visibilitzar referents femenins i fomentar-ne la coresponsabilitat.
     </p>
 
+    <!-- SECCIÓ: Principis de la coeducació -->
     <div class="row align-items-center my-5">
       <div class="col-md-6 d-flex justify-content-center">
+
+        <!-- Imatge representativa -->
         <img src="../imagenes/escuela coeducativa.png" alt="Escuela coeducativa" class="img-fluid img-section rounded shadow">
       </div>
       <div class="col-md-6">
+
+        <!-- Text explicatiu amb una llista de principis de la coeducacio -->
         <h2 class="section-title">Principis de la coeducació</h2>
         <ul>
           <li>Eliminar la discriminació per gènere a l'aula.</li>
@@ -84,9 +124,10 @@
       </div>
     </div>
 
-    <!-- Nueva sección: Beneficios de la coeducación -->
+    <!-- SECCIÓ: Beneficis de la coeducació -->
     <div class="row align-items-center my-5">
       <div class="col-md-6 order-md-2">
+        <!-- Imatge a la dreta en pantalles grans -->
         <img src="../imagenes/beneficios coeducacion.png" alt="Beneficios de la coeducación" class="img-fluid img-section rounded shadow">
       </div>
       <div class="col-md-6 order-md-1">
@@ -98,7 +139,7 @@
       </div>
     </div>
 
-    <!-- Nueva sección: Actividades prácticas -->
+    <!-- SECCIÓ: Activitats pràctiques -->
     <div class="row align-items-center my-5">
       <div class="col-md-6 d-flex justify-content-center">
         <img src="../imagenes/Actividades coeducativas.png" alt="Actividades coeducativas" class="img-fluid img-section rounded shadow">
@@ -112,20 +153,19 @@
       </div>
     </div>
 
-    <!-- Cierre -->
+    <!-- PARÀGRAF FINAL DE REFLEXIÓ -->
     <p class="mt-4">
       <strong>Apostar per una escola coeducativa és contribuir activament a la transformació social. Educar en igualtat avui és construir una societat més justa demà.
       Des d'InclusiveFundation animem tots els centres educatius a integrar aquesta perspectiva als seus plans d'estudi i de vida escolar.</strong>
     </p>
   </div>
   
- <!-- Pie de página -->
+ <!-- ======== PEU DE PÀGINA ======== -->
 <footer class="text-white text-center bg-dark p-3 mt-5">
   &copy; 2025 InclusiveFundation. Tots els drets reservats.
 </footer>
 
-<!-- JS de Bootstrap -->
+<!-- ======== SCRIPTS DE BOOSTRAP PER A FUNCIONAMENT DEL MENÚ I ELEMENTS ======== -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
