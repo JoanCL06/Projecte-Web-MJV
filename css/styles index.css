@@ -61,29 +61,29 @@ footer {
 }
 
 .video-wrapper video {
-  max-width: 90%;      /* O ajusta a 60%, 50%, etc. según desees */
+  max-width: 95%;      /* ajusta el tamaño de los videos */
   height: auto;
-  border-radius: 12px; /* Opcional: esquinas redondeadas */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Opcional: sombra sutil */
+  border-radius: 12px; /* esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra sutil */
 }
 
 nav.navbar {
   background-color: #6a78f5 !important;
 }
 
-/* Estil del logo */
+/* Estilo del logo */
 .logo-navbar {
   height: 40px;
   width: auto;
   transition: transform 0.3s ease;
 }
 
-/* Animació quan es passa el ratolí */
+/* Animación cuando se pasa el raton por encima */
 .logo-navbar:hover {
   transform: rotate(5deg) scale(1.05);
 }
 
-/* Opcional: estil del títol del lloc */
+/* Estilo del titulo del sitio */
 .site-title {
   font-weight: bold;
   font-size: 1.2rem;
