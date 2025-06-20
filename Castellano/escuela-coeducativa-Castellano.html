@@ -1,0 +1,175 @@
+<!-- Define que el documento es HTML5 -->
+<!DOCTYPE html>
+
+<!-- El contenido del sitio está en español -->
+<html lang="es">
+<head>
+
+  <!-- Define la codificación de caracteres para que se vean bien las tildes, la ñ, etc. -->
+  <meta charset="UTF-8" />
+
+  <!-- Hace que la web sea responsive y se adapte a móviles y tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Título que aparece en la pestaña del navegador -->
+  <title>Escuela-Coeducativa - InclusiveFundation</title>
+
+  <!-- Enlace al CSS de Bootstrap para usar su diseño y componentes -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+   <!-- Enlace a nuestra hoja de estilos personalizada -->
+  <link rel="stylesheet" href="../css/styles index.css" />
+</head>
+
+<body>
+  <!-- ======== BARRA DE NAVEGACIÓN (NAVBAR) ======== -->
+  <!-- Barra de navegación oscura y expansible en pantallas grandes -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <!-- Contenedor flexible para los elementos del navbar -->
+  <div class="container-fluid">
+
+    <!-- Logo y nombre de la fundación que enlaza a la página principal -->
+    <a class="navbar-brand d-flex align-items-center" href="index-Castellano.html">
+      <img src="../imagenes/symbol.png" alt="Logo" class="logo-navbar me-2">
+      InclusiveFundation
+    </a>  
+
+    <!-- Botón para abrir/cerrar el menú en dispositivos pequeños -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú de navegación -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <!-- Enlace para volver a la página principal -->
+        <li class="nav-item">
+          <a class="nav-link" href="../Castellano/index-Castellano.html">
+            <i class="fas fa-home"></i> Volver al Principio
+          </a>
+        </li>
+
+        <!-- Página actual en español (activa) -->
+        <li class="nav-item">
+          <a class="nav-link active" href="../Castellano/escuela-coeducativa-Castellano.html">
+            <i class="fas fa-globe-americas"></i> Español
+          </a>
+        </li>
+
+        <!-- Enlace a la versión en catalán -->
+        <li class="nav-item">
+          <a class="nav-link" href="../Catala/escola-coeducativa-Català.html">
+            <i class="fas fa-globe-europe"></i> Català
+          </a>
+        </li>
+
+        <!-- Enlace a la versión en inglés -->
+        <li class="nav-item">
+          <a class="nav-link" href="../Ingles/school-co-education-Ingles.html">
+            <i class="fas fa-globe-asia"></i> English
+          </a>
+        </li>
+      </ul>      
+  </div>
+</nav>
+
+<!-- ======== SECCIÓN DESTACADA (HERO) CON TÍTULO Y DESCRIPCIÓN ======== -->
+<header class="d-flex align-items-center justify-content-center p-5 bg-hero text-hero text-center text-md-start flex-column flex-md-row">
+ <img src="../imagenes/logo.png" alt="Logo" width="80" class="mb-3 mb-md-0 me-md-4">
+ <div>
+  <h1 class="display-4">Escuela Coeducativa</h1>
+  <p class="lead">Como ayudan los espacios igualatorios y diversidad.</p>
+  </div>
+</header>
+
+<!-- Vídeo de encabezado -->
+<section class="video-section text-center">
+  <div class="video-wrapper">
+  <video autoplay muted loop playsinline class="w-100">
+     <!-- Vídeo que se reproduce automáticamente, sin sonido, en bucle y ocupa todo el ancho -->
+    <source src="../videos/Escuela Coeducativa/niños en clase.mp4" type="video/mp4">
+  </video>
+  </div>
+</section>
+
+  <!-- ======== CONTENIDO PRINCIPAL DE LA PÁGINA ======== -->
+  <div class="container mt-5">
+
+    <!-- Título de la sección centrado -->
+    <h1 class="section-title text-center">Escuela Coeducativa</h1>
+
+    <!-- Introducción a la escuela coeducativa -->
+    <p class="mt-4">
+      La escuela coeducativa apuesta por un modelo educativo en el que se eliminan los estereotipos de género y se promueve la igualdad de oportunidades entre niñas y niños.
+      No se trata solo de compartir el mismo espacio, sino de garantizar una participación equitativa, visibilizar referentes femeninos y fomentar la corresponsabilidad.
+    </p>
+
+    <!-- SECCIÓN: Principios de la coeducación -->
+    <div class="row align-items-center my-5">
+      <div class="col-md-6 d-flex justify-content-center">
+
+        <!-- Imagen representativa -->
+        <img src="../imagenes/escuela coeducativa.png" alt="Escuela coeducativa" class="img-fluid img-section rounded shadow">
+      </div>
+      <div class="col-md-6">
+
+        <!-- Texto explicativo con una lista de principios de la coeducacion -->
+        <h2 class="section-title">Principios de la coeducación</h2>
+        <ul>
+          <li>Eliminar la discriminación por género en el aula.</li>
+          <li>Fomentar una educación emocional y empática.</li>
+          <li>Incluir materiales didácticos con perspectiva de género.</li>
+          <li>Visibilizar mujeres referentes en todas las áreas del conocimiento.</li>
+          <li>Promover un lenguaje inclusivo y respetuoso.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SECCIÓN: Beneficios de la coeducación -->
+    <div class="row align-items-center my-5">
+        <div class="col-md-6 order-md-2">
+         <!-- Imagen a la derecha en pantallas grandes -->
+        <img src="../imagenes/beneficios coeducacion.png" alt="Beneficios de la coeducación" class="img-fluid img-section rounded shadow">
+        </div>
+      <div class="col-md-6 order-md-1">
+        <h2 class="section-title">Beneficios para el alumnado</h2>
+        <p>
+          Implementar la coeducación no solo mejora la convivencia escolar, sino que también potencia la autoestima, el pensamiento crítico y el respeto hacia las diferencias.
+          El alumnado aprende a valorar la diversidad como un elemento enriquecedor en su formación.
+        </p>
+      </div>
+    </div>
+
+   <!-- SECCIÓN: Actividades prácticas -->
+    <div class="row align-items-center my-5">
+      <div class="col-md-6 d-flex justify-content-center">
+        <img src="../imagenes/Actividades coeducativas.png" alt="Actividades coeducativas" class="img-fluid img-section rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="section-title">Actividades coeducativas</h2>
+        <p>
+          Algunas actividades recomendadas incluyen dinámicas de roles, talleres de emociones, debates sobre igualdad de género y análisis de medios de comunicación.
+          Estas experiencias permiten cuestionar los modelos tradicionales y construir nuevas formas de relación más justas.
+        </p>
+      </div>
+    </div>
+
+    <!-- PÁRRAFO FINAL DE REFLEXIÓN -->
+    <p class="mt-4">
+      <strong>Apostar por una escuela coeducativa es contribuir activamente a la transformación social. Educar en igualdad hoy es construir una sociedad más justa mañana.
+      Desde InclusiveFundation animamos a todos los centros educativos a integrar esta perspectiva en sus planes de estudio y vida escolar.</strong>
+    </p>
+  </div>
+
+<!-- ======== PIE DE PÁGINA ======== -->
+<footer class="text-white text-center p-3 mt-5">
+  &copy; 2025 InclusiveFundation. 
+</footer>
+
+<!-- ======== SCRIPTS DE BOOSTRAP PARA FUNCIONAMIENTO DEL MENÚ Y ELEMENTOS ======== -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

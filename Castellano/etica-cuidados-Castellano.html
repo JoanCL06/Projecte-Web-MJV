@@ -1,0 +1,174 @@
+<!-- Define que el documento es HTML5 -->
+<!DOCTYPE html>
+
+<!-- El contenido del sitio está en español -->
+<html lang="es">
+<head>
+
+  <!-- Define la codificación de caracteres para que se vean bien las tildes, la ñ, etc. -->
+  <meta charset="UTF-8" />
+
+  <!-- Hace que la web sea responsive y se adapte a móviles y tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Título que aparece en la pestaña del navegador -->
+  <title>Etica-Cuidados - InclusiveFundation</title>
+
+  <!-- Enlace al CSS de Bootstrap para usar su diseño y componentes -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Enlace a tu propia hoja de estilos personalizada -->
+  <link rel="stylesheet" href="../css/styles index.css" />
+</head>
+
+<body>
+
+<!-- ======== BARRA DE NAVEGACIÓN (NAVBAR) ======== -->
+ <!-- Barra de navegación oscura y expansible en pantallas grandes -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   
+  <!-- Contenedor flexible para los elementos del navbar -->
+  <div class="container-fluid">
+
+    <!-- Logo y nombre de la fundación que enlaza a la página principal -->
+    <a class="navbar-brand d-flex align-items-center" href="index-Castellano.html">
+      <img src="../imagenes/symbol.png" alt="Logo" class="logo-navbar me-2">
+      InclusiveFundation
+    </a>  
+
+    <!-- Botón para abrir/cerrar el menú en dispositivos pequeños -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú de navegación -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        
+        <!-- Enlace para volver a la página principal -->
+        <li class="nav-item">
+          <a class="nav-link" href="../Castellano/index-Castellano.html">
+            <i class="fas fa-home"></i> Volver al Principio
+          </a>
+        </li>
+
+        <!-- Página actual en español (activa) -->
+        <li class="nav-item">
+          <a class="nav-link active" href="../Castellano/etica-cuidados-Castellano.html">
+            <i class="fas fa-globe-americas"></i> Español
+          </a>
+        </li>
+
+        <!-- Enlace a la versión en catalán -->
+        <li class="nav-item">
+          <a class="nav-link" href="../Catala/etica-cura-Català.html">
+            <i class="fas fa-globe-europe"></i> Català
+          </a>
+        </li>
+
+        <!-- Enlace a la versión en inglés -->
+        <li class="nav-item">
+          <a class="nav-link" href="../Ingles/etich-cure-Ingles.html">
+            <i class="fas fa-globe-asia"></i> English
+          </a>
+        </li>
+      </ul>      
+  </div>
+</nav>
+
+<!-- ======== SECCIÓN DESTACADA (HERO) CON TÍTULO Y DESCRIPCIÓN ======== -->
+<header class="d-flex align-items-center justify-content-center p-5 bg-hero text-hero text-center text-md-start flex-column flex-md-row">
+ <img src="../imagenes/logo.png" alt="Logo" width="80" class="mb-3 mb-md-0 me-md-4">
+ <div>
+  <h1 class="display-4">Eticá y Cuidados</h1>
+  <p class="lead">Como volver a valorar la convivencia.</p>
+ </div>
+</header>
+
+<!-- Vídeo de encabezado -->
+<section class="video-section text-center">
+  <div class="video-wrapper">
+  <video autoplay muted loop playsinline class="w-100">
+    <!-- Vídeo que se reproduce automáticamente, sin sonido, en bucle y ocupa todo el ancho -->
+    <source src="../videos/Etica y Cuidados/niño ayudando a señor.mp4" type="video/mp4">
+  </video>
+  </div>
+</section>
+
+<!-- ======== CONTENIDO PRINCIPAL DE LA PÁGINA ======== -->
+  <div class="container mt-5">
+
+  <!-- Título de la sección centrado -->
+  <h1 class="section-title text-center">Ética del Cuidado</h1>
+
+  <!-- Introducción a la ética del cuidado -->
+  <p class="mt-4">
+    La ética del cuidado pone en el centro la importancia de los vínculos humanos, la empatía, la interdependencia y la responsabilidad mutua. 
+    En un mundo cada vez más individualista, es urgente recuperar el valor del cuidado como fundamento de una sociedad más justa, equitativa y sostenible.
+  </p>
+
+  <!-- Las tareas de cuidado -->
+  <p>
+    Las tareas de cuidado no solo abarcan el acompañamiento físico o emocional, sino que también implican escucha, paciencia, atención plena y compromiso. 
+    Estas acciones han sido históricamente asociadas a las mujeres, lo que ha generado una gran desigualdad en su reparto y reconocimiento.
+  </p>
+
+  <!-- Primera fila con la imagen a la izquierda y el texto a la derecha -->
+  <div class="row align-items-center my-5">
+    <div class="col-md-6 d-flex justify-content-center">
+
+      <!-- Imagen con los bordes redondeados y sombra -->
+      <img src="../imagenes/Etica del cuidado.png" alt="Ética del cuidado" class="img-fluid img-section rounded shadow">
+    </div>
+    <div class="col-md-6">
+
+      <!-- Texto explicativo con una lista  de porque revalorizar el cuidado -->
+      <h2 class="section-title">¿Por qué es importante revalorizar el cuidado?</h2>
+      <ul>
+        <li>El cuidado es esencial para la vida y el bienestar de todas las personas.</li>
+        <li>Reconocerlo fortalece una sociedad más humana y solidaria.</li>
+        <li>Fomenta una cultura de respeto, escucha y colaboración.</li>
+        <li>Desafía los roles de género tradicionales asignados al cuidado.</li>
+        <li>Genera nuevas formas de liderazgo basadas en la empatía.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Segunda fila con la imagen a la derecha y el texto a la izquierda -->
+  <div class="row align-items-center my-5">
+    <div class="col-md-6 order-md-2">
+
+      <!-- Imagen a la derecha -->
+      <img src="../imagenes/Cuidado Comunitario.png" alt="Cuidado comunitario" class="img-fluid img-section rounded shadow">
+    </div>
+
+    <!-- Texto a la izquierda -->
+    <div class="col-md-6 order-md-1">
+      <h2 class="section-title">Cuidado y comunidad</h2>
+      <p>
+        El cuidado no es solo una responsabilidad individual, sino también una tarea colectiva. 
+        En contextos comunitarios, el cuidado mutuo puede ser una herramienta de transformación social y de resistencia frente a las desigualdades.
+      </p>
+      <p>
+        Educar desde la ética del cuidado permite enseñar a valorar el tiempo compartido, los afectos y el trabajo invisible que sostiene la vida cotidiana. 
+        Esta visión fomenta el compromiso social y el respeto a la diversidad en todas sus formas.
+      </p>
+    </div>
+  </div>
+
+  <!-- Mensaje final centrado -->
+  <p class="text-center mt-5">
+    <strong>la ética del cuidado en la educación es clave para construir relaciones igualitarias, promover el respeto a la diversidad 
+    y valorar lo afectivo como parte esencial del desarrollo humano.</strong> 
+  </p>
+</div>
+  
+<!-- ======== PIE DE PÁGINA ======== -->
+<footer class="text-white text-center bg-dark p-3 mt-5">
+  &copy; 2025 InclusiveFundation. 
+</footer>
+
+<!-- ======== SCRIPTS DE BOOSTRAP PARA FUNCIONAMIENTO DEL MENÚ Y ELEMENTOS ======== -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

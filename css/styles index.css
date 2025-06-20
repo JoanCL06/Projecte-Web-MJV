@@ -1,0 +1,119 @@
+/* Estilo general del cuerpo del documento */
+body {
+  font-family: 'Nunito', sans-serif; /* Fuente del texto */
+  background-color: #fdf9f6; /* Color de fondo claro */
+  color: #333; /* Color del texto */
+
+}
+
+/* Fondo y espaciado del hero (cabecera principal) */
+.bg-hero {
+  background-color: #6a78f5; /* Azul violeta */
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Texto blanco en la cabecera hero */
+.text-hero {
+  color: white;
+}
+
+/* Estilo para imágenes dentro de tarjetas */
+.img-card {
+  height: 200px; /* Altura fija */
+  object-fit: cover; /* Recorta o amplía manteniendo proporciones */
+  width: 100%; /* Ancho completo del contenedor */
+}
+
+/* Estilo para imágenes dentro de secciones */
+.img-section {
+  max-width: 100%; /* Que no sobrepase el contenedor */
+  height: 300px; /* Altura definida */
+  object-fit: cover; /* Recorta o amplía manteniendo proporciones */
+  display: block;
+  margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Estilo para los títulos de las secciones */
+.section-title {
+  color: #6a78f5; /* Mismo azul que el hero */
+  margin-top: 2rem; /* Espaciado superior */
+}
+
+/* Estilo del pie de página */
+footer {
+  background-color: #333; /* Gris oscuro */
+}
+
+/* Botón con borde azul y texto azul */
+.btn-outline-primary {
+  border-color: #6a78f5;
+  color: #6a78f5;
+}
+
+/* Estilo del botón al pasar el ratón por encima */
+.btn-outline-primary:hover {
+  background-color: #6a78f5; /* Fondo azul */
+  color: white; /* Texto blanco */
+}
+
+/* Espaciado de la sección de video */
+.video-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+}
+
+/* Contenedor que mantiene proporción 16:9 para el video */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Estilo visual del video */
+.video-wrapper video {
+  max-width: 95%;      /* ajusta el tamaño de los videos */
+  height: auto;
+  border-radius: 12px; /* esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra sutil */
+  max-width: 95%; /* ajusta el tamaño de los videos */
+  height: auto;
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Fondo de la barra de navegación */
+nav.navbar {
+  background-color: #6a78f5 !important;
+}
+
+/* Estilo del logo */
+.logo-navbar {
+  height: 40px; /* Altura fija */
+  width: auto; /* Ancho proporcional */
+  transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+/* Animación cuando se pasa el raton por encima */
+.logo-navbar:hover {
+  transform: rotate(5deg) scale(1.05); /* Gira y amplía ligeramente */
+}
+
+/* Estilo del titulo del sitio */
+.site-title {
+  font-weight: bold; /* Negrita */
+  font-size: 1.2rem; /* Tamaño de fuente medio */
+}
+
+/* Adaptación del logo y título en pantallas pequeñas */
+@media (max-width: 576px) {
+  .logo-navbar {
+    height: 32px; /* Logo más pequeño */
+  }
+
+  .site-title {
+    font-size: 1rem; /* Título más pequeño */
+  }
+}

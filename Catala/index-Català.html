@@ -1,0 +1,177 @@
+<!-- index.html (Català) -->
+<!DOCTYPE html>
+
+<!-- El contingut esta en Català -->
+<html lang="ca">
+<head>
+ <!-- Defineix la codificació de caràcters perquè es vegin bé les titlles, la ñ, etc. -->
+  <meta charset="UTF-8" />
+
+  <!-- Fa que la web sigui responsive i s'adapti a mòbils i tauletes -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Títol que apareix a la pestanya del navegador -->
+  <title>InclusiveFundation</title>
+
+ <!-- Enllaç al CSS de Bootstrap per utilitzar el seu disseny i components -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Enllaç al CSS -->
+  <link rel="stylesheet" href="../css/styles index.css" />
+
+  <!-- Font personalitzada des de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- ======== BARRA DE NAVEGACIÓ (NAVBAR) ======== -->
+<!-- Barra de navegació fosca i expansible en pantalles grans -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+  <!-- Contenidor flexible per als elements del navbar -->
+  <div class="container-fluid">
+
+    <!-- Logo i nom de l'organització -->
+    <a class="navbar-brand d-flex align-items-center">
+      <img src="../imagenes/symbol.png" alt="Logo" class="logo-navbar me-2">
+      InclusiveFundation
+    </a>    
+
+    <!-- Botó per a menú responsive -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú d'idiomes -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <!-- Enllaç a la versió en català (actual) -->
+        <li class="nav-item"><a class="nav-link active" href="index-Català.html">Català</a></li>
+
+        <!-- Enllaç a la versió en castellà -->
+        <li class="nav-item"><a class="nav-link" href="../Castellano/index-Castellano.html">Castellá</a></li>
+
+        <!-- Enllaç a la versió en anglès -->
+        <li class="nav-item"><a class="nav-link" href="../Ingles/index-Ingles.html">Anglés</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CAPÇALERA AMB TÍTOL PRINCIPAL -->
+<header class="d-flex align-items-center justify-content-center p-5 bg-hero text-hero text-center text-md-start flex-column flex-md-row">
+
+  <!-- Logo de l'ONG -->
+  <img src="../imagenes/logo.png" alt="Logo" width="80" class="mb-3 mb-md-0 me-md-4">
+
+  <!-- Títol y subtitul junts de la web -->
+<div>
+  <h1 class="display-4">Equitat de Gènere i Coeducació</h1>
+  <p class="lead">Construint una societat més justa i inclusiva des de l’educació</p>
+</div>
+</header>
+
+<!-- VIDEO DE FONS (Nens jugant) -->
+<section class="video-section text-center">
+  <div class="video-wrapper">
+    <video autoplay muted loop playsinline>
+      <source src="../videos/Index/niños jugando.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+<!-- CONTINGUT PRINCIPAL -->
+<main class="container mt-3">
+  <section class="mb-5">
+
+  <!-- muestra 1 columna por fila en móvil y 3 en pantallas medianas o grandes. -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+  <!-- SECCIÓ: Qui som? -->
+    <div class="col">
+        <div class="card h-100 shadow">
+          <img src="../imagenes/Quienes somos.png" class="card-img-top img-card" alt="¿Quiénes somos?">
+          <div class="card-body">
+            <h2 class="section-title">Qui som?</h2>
+            <p>Som una organització compromesa amb l’equitat de gènere i la transformació educativa. El nostre equip està format per docents, professionals de l’àmbit social i activistes que treballen a favor d’una educació inclusiva.</p>
+          </div>
+        </div>
+    </div>
+
+  <!-- SECCIÓ: Què busquem aconseguir? -->
+    <div class="col">
+        <div class="card h-100 shadow">
+          <img src="../imagenes/Que queremos conseguir.png" class="card-img-top img-card" alt="¿Qué buscamos lograr?">
+          <div class="card-body">
+             <h2 class="section-title">Què volem aconseguir?</h2>
+             <p>Creiem que l’educació és una eina clau per construir una societat més justa, on totes les persones tinguin les mateixes oportunitats. Volem eliminar estereotips, promoure el respecte a la diversitat i fomentar relacions igualitàries en l’entorn escolar.</p>
+          </div>
+        </div>
+    </div>
+
+  <!-- SECCIÓ: Per què parlar d'equitat de gènere? -->
+  <div class="col">
+        <div class="card h-100 shadow">
+          <img src="../imagenes/equidad de genero en la educación.png" class="card-img-top img-card" alt="¿Por qué hablar de equidad de género?">
+          <div class="card-body">
+            <h2 class="section-title">Per què parlar d’equitat de gènere?</h2>
+            <p>L’equitat de gènere busca eliminar les barreres estructurals que impedeixen a dones i homes participar en igualtat de condicions en tots els àmbits de la vida. En el context educatiu, això implica revisar continguts, pràctiques docents i relacions dins de l’aula.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <!-- SECCIÓ: TEMATIQUES CLAU -->
+  <section class="mb-5">
+    <h2 class="section-title text-center">Temàtiques clau</h2>
+    <div class="row text-center">
+
+      <!-- Relacions de Gènere -->
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Relació de Gènere</strong></h5>
+            <p class="card-text">Analitza com els estereotips influeixen en el desenvolupament personal i social.</p>
+            <a href="relacions-genere-Català.html" class="btn btn-outline-primary">Llegir més</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Escola Coeducativa -->
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Escola Coeducativa</strong></h5>
+            <p class="card-text">Fomenta espais educatius igualitaris i respectuosos amb la diversitat.</p>
+            <a href="escola-coeducativa-Català.html" class="btn btn-outline-primary">Llegir més</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ètica de la Cura -->
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Ètica de la Cura</strong></h5>
+            <p class="card-text">Revaloritza les tasques de cura com a base d’una convivència justa.</p>
+            <a href="etica-cura-Català.html" class="btn btn-outline-primary">Llegir més</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ======== PEU DE PÁGINA ======== -->
+<footer class="text-white text-center p-3 mt-5">
+  &copy; 2025 InclusiveFundation.
+</footer>
+
+<!-- ======== SCRIPTS DE BOOSTRAP PER A FUNCIONAMENT DEL MENÚ I ELEMENTS ======== -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
